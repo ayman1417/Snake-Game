@@ -1,0 +1,109 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16263 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\MY EDU_P\unity\editor\Unity 2022.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/MY EDU_P/unity/projects/Snake game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52338
+Successfully changed project path to: D:/MY EDU_P/unity/projects/Snake game
+D:/MY EDU_P/unity/projects/Snake game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19220] Host "[IP] 192.168.12.1 [Port] 0 [Flags] 2 [Guid] 3617687461 [EditorId] 3617687461 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NPRVBNR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19220] Host "[IP] 192.168.12.1 [Port] 0 [Flags] 2 [Guid] 3617687461 [EditorId] 3617687461 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NPRVBNR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 2312.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path D:/MY EDU_P/unity/editor/Unity 2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/MY EDU_P/unity/projects/Snake game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro M2000M (ID=0x13b0)
+    Vendor:   NVIDIA
+    VRAM:     4053 MB
+    Driver:   31.0.15.1669
+Initialize mono
+Mono path[0] = 'D:/MY EDU_P/unity/editor/Unity 2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'D:/MY EDU_P/unity/editor/Unity 2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/MY EDU_P/unity/editor/Unity 2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Begin MonoManager ReloadAssembly
+Failed loading assembly D:/MY EDU_P/unity/editor/Unity 2022.3.11f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll reason: Not enough space
+Loading assembly failed: "D:/MY EDU_P/unity/editor/Unity 2022.3.11f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll" reason: Not enough space
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+=================================================================
+Received signal SIGSEGV
+Obtained 17 stack frames
+0x00007ff7a483ef78 (Unity) DynamicHeapAllocator::Allocate
+0x00007ff7a484d7bc (Unity) DualThreadAllocator<DynamicHeapAllocator>::Allocate
+0x00007ff7a483f691 (Unity) MemoryManager::Allocate
+0x00007ff7a484977e (Unity) malloc_internal
+0x00007ff7a4133dc7 (Unity) core::StringStorageDefault<char>::grow
+0x00007ff7a4132a9a (Unity) core::StringStorageDefault<char>::assign
+0x00007ff7a4f1ce67 (Unity) MonoManager::LoadAssemblyInMemoryAndDomain
+0x00007ff7a4f1c2a2 (Unity) MonoManager::LoadAssembly
+0x00007ff7a4f1bc43 (Unity) MonoManager::LoadAssemblies
+0x00007ff7a4f13575 (Unity) MonoManager::BeginReloadAssembly
+0x00007ff7a4f1e4a8 (Unity) MonoManager::ReloadAssembly
+0x00007ff7a5eba8ce (Unity) LoadUnityMonoAssemblies
+0x00007ff7a5b93a6b (Unity) Application::InitializeProject
+0x00007ff7a601cdd5 (Unity) WinMain
+0x00007ff7a74003ee (Unity) __scrt_common_main_seh
+0x00007ffa543a7344 (KERNEL32) 
+0x00007ffa544e26b1 (ntdll) 
+
